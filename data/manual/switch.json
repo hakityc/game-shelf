@@ -1,0 +1,34 @@
+[
+  {
+    "id": "switch-zelda-totk",
+    "platform": "switch",
+    "title": "塞尔达传说 王国之泪",
+    "format": "physical",
+    "status": "finished",
+    "playtimeHours": 120,
+    "rating": 5,
+    "note": "示例条目，换成你自己的游戏"
+  },
+  {
+    "id": "switch-mario-wonder",
+    "platform": "switch",
+    "title": "超级马力欧兄弟 惊奇",
+    "format": "physical",
+    "status": "playing",
+    "playtimeHours": 15
+  },
+  {
+    "id": "switch-pokemon-sv",
+    "platform": "switch",
+    "title": "宝可梦 朱",
+    "format": "physical",
+    "status": "backlog"
+  },
+  {
+    "id": "switch-mario-kart",
+    "platform": "switch",
+    "title": "马力欧卡丁车 8 豪华版",
+    "format": "digital",
+    "status": "wishlist"
+  }
+]

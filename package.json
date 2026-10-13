@@ -1,0 +1,21 @@
+{
+  "name": "game-shelf",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "npm run merge && vite",
+    "build": "npm run merge && vite build",
+    "preview": "vite preview",
+    "fetch:steam": "node scripts/fetch-steam.mjs",
+    "merge": "node scripts/merge.mjs"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.4"
+  }
+}
