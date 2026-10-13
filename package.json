@@ -8,9 +8,13 @@
     "build": "npm run merge && vite build",
     "preview": "vite preview",
     "fetch:steam": "node scripts/fetch-steam.mjs",
-    "merge": "node scripts/merge.mjs"
+    "merge": "node scripts/merge.mjs",
+    "fetch:ps": "node scripts/fetch-ps.mjs",
+    "fetch:xbox": "node scripts/fetch-xbox.mjs",
+    "fetch": "npm run fetch:steam; npm run fetch:ps; npm run fetch:xbox"
   },
   "dependencies": {
+    "psn-api": "^2.18.1",
     "react": "^19.3.0",
     "react-dom": "^19.3.0"
   },

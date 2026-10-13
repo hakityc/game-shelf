@@ -15,6 +15,7 @@ export default function Detail({ game, onClose }) {
     ['平台', p?.name],
     ['状态', s && <span className="pill" style={{ '--pill': s.color }}>{s.label}</span>],
     ['游玩时长', formatHours(game.playtimeHours)],
+    ['成就', game.achievements && `${game.achievements.unlocked} / ${game.achievements.total}`],
     ['最近游玩', game.lastPlayed],
     ['版本', game.format === 'physical' ? '实体卡带' : game.format === 'digital' ? '数字版' : null],
     ['评分', game.rating ? '★'.repeat(game.rating) + '☆'.repeat(5 - game.rating) : null],
