@@ -30,6 +30,8 @@ jobs:
           cache: npm
       - run: npm ci
       - name: 拉取 Steam 数据
+        # Steam 拉取失败不影响部署，只是这次页面里没有 Steam 游戏
+        continue-on-error: true
         run: npm run fetch:steam
         env:
           STEAM_API_KEY: ${{ secrets.STEAM_API_KEY }}
